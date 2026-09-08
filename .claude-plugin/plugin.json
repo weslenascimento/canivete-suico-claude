@@ -1,0 +1,18 @@
+{
+  "name": "canivete-suico-claude",
+  "version": "0.1.0",
+  "description": "Fluxo completo de desenvolvimento solo para o Claude: brainstorming → DDD → spec-driven → template → implementação guiada → harness, com memória de projeto persistente e calibração automática por porte (pequeno/médio/grande).",
+  "author": {
+    "name": "Wesle"
+  },
+  "keywords": [
+    "desenvolvimento",
+    "solo-dev",
+    "ddd",
+    "domain-driven-design",
+    "spec-driven",
+    "harness",
+    "memoria-projeto",
+    "workflow"
+  ]
+}
