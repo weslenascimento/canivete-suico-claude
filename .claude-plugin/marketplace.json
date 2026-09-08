@@ -1,0 +1,13 @@
+{
+  "name": "canivete-suico",
+  "owner": {
+    "name": "Wesle"
+  },
+  "plugins": [
+    {
+      "name": "canivete-suico-claude",
+      "source": "./",
+      "description": "Fluxo completo de desenvolvimento solo para o Claude: brainstorming → DDD → spec-driven → template → implementação guiada → harness, com memória de projeto persistente e calibração automática por porte (pequeno/médio/grande)."
+    }
+  ]
+}
