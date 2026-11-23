@@ -30,6 +30,51 @@ Ao conduzir a descoberta com decisões sucessivas, siga obrigatoriamente este fo
 
 **Modelo de cada pergunta:** identificação → contexto → pergunta → alternativas A–E → recomendação justificada → campo de complemento livre (opcional, sempre visível) → confirmação. Esse formato não substitui a investigação e o questionamento crítico definidos em "Como conduzir"; apenas padroniza a interação e a captura das decisões.
 
+## Controle de convergência e escopo (BRN-01 a BRN-04)
+
+Estas regras são obrigatórias em todo brainstorming e complementam — sem substituir — "Como conduzir" e "Apresentação das perguntas e registro de decisões". A meta é chegar a decisões suficientes para o fluxo principal, não maximizar a quantidade de perguntas.
+
+### BRN-01 — Convergência progressiva e backlog
+
+- **Avalie a suficiência continuamente**, especialmente depois de cada decisão macro: ainda falta alguma regra essencial para definir o resultado e avançar sem inventar uma decisão crítica?
+- **Identifique ativamente excessos**: detalhes prematuros, novas funcionalidades, variantes remotas, exceções não bloqueantes e ramificações que ampliem o escopo sem alterar o fluxo essencial.
+- **Não transforme excessos em novas perguntas obrigatórias.** Encaminhe-os a um backlog para retomar quando oportuno, preservando contexto, motivação e vínculo com o tema/decisão de origem.
+- **Não descarte ideias.** Registre no backlog sem tratá-las como aprovadas ou incluídas no MVP.
+
+### BRN-02 — Classificação inteligente de cada questão
+
+Antes de perguntar, avalie **relevância**, **necessidade imediata**, **impacto no MVP**, **dependências** e **fase adequada**. Classifique internamente toda questão potencial como:
+
+1. **Decisão obrigatória agora:** sem a resposta, há bloqueio real para definir o fluxo principal ou uma regra de negócio essencial. Pergunte, uma por vez, no formato A–E.
+2. **Definição posterior:** pertence a Domain Discovery, DDD, Spec-Driven ou implementação e não bloqueia a descoberta macro. Registre para a fase correta; não antecipe o detalhamento.
+3. **Backlog de evolução:** melhoria opcional, automação futura, exceção não crítica ou expansão funcional. Registre com contexto para discussão futura; não amplie o escopo atual.
+
+Importância não implica urgência. Se algo for relevante, mas não bloqueante, não é motivo suficiente para prolongar o brainstorming.
+
+### BRN-03 — Controle inteligente de profundidade
+
+- Antes de **cada nova pergunta**, verifique se sua resposta realmente muda o fluxo principal, resolve dependência essencial ou elimina ambiguidade bloqueante.
+- Detecte repetição de decisões, pequenas variações do mesmo assunto, aprofundamento prematuro e ramificações em cadeia.
+- **Interrompa** perguntas sem impacto concreto; direcione os pontos aproveitáveis ao backlog ou à fase posterior.
+- Não imponha um número rígido de perguntas: um tema complexo pode exigir aprofundamento legítimo, desde que cada questão tenha necessidade demonstrável.
+- Não abra uma nova rodada de perguntas apenas porque é possível imaginar outros cenários.
+
+### BRN-04 — Encerramento assistido e checkpoint
+
+Quando objetivo, atores, fluxo principal, limites de escopo e regras essenciais estiverem suficientemente claros:
+
+1. **Pare de propor novas perguntas exploratórias.** Não crie uma pergunta final artificial para estender a sessão.
+2. **Apresente um diagnóstico de suficiência**, explicando brevemente o que já permite avançar e identificando somente lacunas realmente bloqueantes, se existirem.
+3. **Consolide** decisões confirmadas e complementos, separando explicitamente **pendências bloqueantes**, **definições posteriores** e **backlog de evolução**, sem promover itens pendentes a decisões aprovadas.
+4. **Recomende o encerramento** da descoberta macro e a transição à próxima fase compatível com o fluxo do projeto.
+5. **Peça confirmação ao usuário** para encerrar, revisar um ponto específico ou continuar por motivo concreto. Respeite a escolha; se continuar, investigue só o que estiver justificado, preservando as regras de controle de escopo.
+
+A revisão de suficiência pode acontecer antes de todas as questões inicialmente imaginadas terem sido exploradas. O encerramento depende da suficiência de decisões, não da contagem de perguntas.
+
+**Critério prático para propor outra pergunta:** "Se esta resposta não vier agora, ainda conseguiremos consolidar a descoberta macro e prosseguir sem inventar uma regra essencial?" Se **sim**, registre como posterior/backlog e **não pergunte agora**. Se **não**, explique o bloqueio e formule uma única pergunta no formato aprovado.
+
+**Registro mínimo de backlog:** identificador ou título, descrição/contexto, razão do adiamento, origem (pergunta/decisão relacionada), fase sugerida e status "não decidido". Disponibilize-o no resumo/checkpoint e preserve para retomada posterior via `memoria-projeto`, quando houver persistência disponível.
+
 ## Saída
 
 Feche com um **Brief de Decisão** curto:
